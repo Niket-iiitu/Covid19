@@ -4,13 +4,14 @@ import Page from "./page";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <div style={{ height: "100%", width: "100%" }}>
-        <main>
-          <Route path="/" component={Page} exact />
-        </main>
-      </div>
-    </BrowserRouter>
+    // <BrowserRouter>
+    //   <div style={{ height: "100%", width: "100%" }}>
+    //     <main>
+    //       <Route path="/" component={Page} exact />
+    //     </main>
+    //   </div>
+    // </BrowserRouter>
+    <Page />
   );
 };
 
